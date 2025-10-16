@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+}
+li::before{
+    content:"💖"
+}
+li::after{
+    content:"😍"
+}
+li{
+    margin: 10px 0;
+    background-color: blueviolet;
+}
+li:hover{
+    cursor: pointer;
+}
